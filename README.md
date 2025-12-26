@@ -1,149 +1,142 @@
-# Loan-Approval-Prediction-System-using-Machine-Learning
-Loan Approval Prediction System
-Project Overview
+# Loan Approval Prediction System
 
-This project is a Machine Learning–based Loan Approval Prediction System that predicts whether a loan application will be Approved or Rejected based on applicant details.
-The model is trained using the Random Forest Classifier on a real-world loan dataset.
+## 📌 Project Description
+The Loan Approval Prediction System is a machine learning project that predicts whether a loan application will be **Approved** or **Rejected** based on applicant details.  
+The system uses a **Random Forest Classifier** trained on a real-world loan dataset.
 
-Objective
+---
 
-To automate the loan approval process by analyzing applicant information and predicting loan eligibility accurately.
+## 🎯 Objective
+To automate the loan approval process by analyzing applicant information and predicting loan eligibility accurately and efficiently.
 
-Dataset
+---
 
-Source: Kaggle (Loan Prediction Dataset)
+## 📊 Dataset
+- Source: Kaggle Loan Prediction Dataset
+- Files:
+  - `train.csv` – used for training the model
+  - `test.csv` – used for testing the trained model
+- Note:
+  - The `Loan_ID` column is removed as it is only an identifier and does not affect predictions.
 
-Files used:
+---
 
-train.csv – used for training the model
+## 🧾 Features Used
+- Gender  
+- Married  
+- Dependents  
+- Education  
+- Self_Employed  
+- ApplicantIncome  
+- CoapplicantIncome  
+- LoanAmount  
+- Loan_Amount_Term  
+- Credit_History  
+- Property_Area  
 
-test.csv – used for testing and prediction
+---
 
-Note:
-The Loan_ID column is removed during training and testing because it is only an identifier and does not contribute to prediction.
+## 🎯 Target Variable
+- Loan_Status  
+  - Approved  
+  - Rejected  
 
-Features Used
+---
 
-Gender
+## 🤖 Machine Learning Algorithm
+- Random Forest Classifier
 
-Married
+**Reason for selection:**
+- Reduces overfitting
+- Works well with tabular data
+- Provides good accuracy
 
-Dependents
+---
 
-Education
+## ⚙️ Project Workflow
+1. Load training dataset  
+2. Remove Loan_ID column  
+3. Handle missing values  
+4. Encode categorical features  
+5. Split data into training and testing sets  
+6. Train Random Forest model  
+7. Evaluate model accuracy  
+8. Save trained model as `.pkl` file  
+9. Load model and predict results on test data  
 
-Self_Employed
+---
 
-ApplicantIncome
+## 📈 Model Performance
+- Accuracy achieved: ~78%
+- Evaluation metric: Accuracy Score
 
-CoapplicantIncome
+---
 
-LoanAmount
+## 📁 Project Structure
 
-Loan_Amount_Term
-
-Credit_History
-
-Property_Area
-
-Target Variable
-
-Loan_Status
-
-Approved
-
-Rejected
-
-Machine Learning Algorithm
-
-Random Forest Classifier
-
-Chosen because it:
-
-Reduces overfitting
-
-Handles both numerical and categorical data
-
-Provides good accuracy on tabular datasets
-
-Project Workflow
-
-Load training dataset
-
-Remove Loan_ID column
-
-Handle missing values
-
-Encode categorical variables
-
-Split data into training and testing sets
-
-Train Random Forest model
-
-Evaluate model accuracy
-
-Save trained model as .pkl file
-
-Load model and predict results on test data
-
-Model Performance
-
-Achieved accuracy: ~78%
-
-Evaluation metric: Accuracy Score
-
-Files in the Project
 loan-approval-prediction/
 │
 ├── train.csv
 ├── test.csv
 ├── loan_approval_model.pkl
 ├── loan_test_results.csv
-├── training.ipynb
-├── testing.ipynb
+├── train_model.ipynb
+├── test_model.ipynb
 └── README.md
 
-How to Run the Project
-1. Install Required Libraries
+
+---
+
+## ▶️ How to Run the Project
+
+### Step 1: Install Required Libraries
 pip install pandas scikit-learn joblib
 
-2. Train the Model
+markdown
+Copy code
 
-Run the training notebook/script
-
-The trained model will be saved as:
-
+### Step 2: Train the Model
+- Run the training notebook/script
+- The trained model will be saved as:
 loan_approval_model.pkl
 
-3. Test the Model
+markdown
+Copy code
 
-Run the testing notebook/script
-
-Predictions will be saved as:
-
+### Step 3: Test the Model
+- Run the testing notebook/script
+- Predictions will be saved as:
 loan_test_results.csv
 
-Output
+yaml
+Copy code
 
-The final output file contains predicted loan status:
+---
 
+## 📤 Output
+The output file contains predicted loan status:
 Loan_Status_Predicted
 Approved / Rejected
 
-Applications
+yaml
+Copy code
 
-Banking and Financial Institutions
+---
 
-Loan Eligibility Systems
+## 🏦 Applications
+- Banking systems
+- Loan eligibility verification
+- Credit risk analysis
 
-Credit Risk Analysis
+---
 
-Conclusion
+## ✅ Conclusion
+This project demonstrates the use of machine learning for automating loan approval decisions.  
+The Random Forest model provides reliable predictions and reduces manual processing effort.
 
-This project demonstrates how machine learning can be used to automate loan approval decisions. By using a Random Forest model and proper data preprocessing, the system provides reliable predictions and reduces manual effort.
+---
 
-Author
-
-Kanha Patidar
-B.Tech (CSIT)
+## 👤 Author
+**Kanha Patidar**  
+B.Tech (CSIT)  
 Chamelidevi Group of Institutions, Indore

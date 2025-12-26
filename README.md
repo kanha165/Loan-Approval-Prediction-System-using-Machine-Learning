@@ -136,7 +136,16 @@ The Random Forest model provides reliable predictions and reduces manual process
 
 ---
 
-## 👤 Author
-**Kanha Patidar**  
-B.Tech (CSIT)  
-Chamelidevi Group of Institutions, Indore
+**Author**
+Developed by **Kanha Patidar**
+
+Branch: B.Tech CSIT
+
+Semester: 5th Sem
+
+College: Chameli Devi Group of Institutions, Indore
+
+
+Machine Learning inten at technorizen software solution. indore 
+
+

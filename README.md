@@ -177,7 +177,12 @@ Conclusion
 This project demonstrates a complete machine learning pipeline for loan approval prediction.
 By combining batch testing and manual user input testing, the system proves both accuracy and real-world usability.
 
-Author
-Kanha Patidar
-B.Tech (CSIT)
-Chamelidevi Group of Institutions, Indore
+Author Developed by Kanha Patidar
+
+Branch: B.Tech CSIT
+
+Semester: 5th Sem
+
+College: Chameli Devi Group of Institutions, Indore
+
+Machine Learning inten at technorizen software solution. indore
